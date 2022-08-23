@@ -1,0 +1,158 @@
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    background-image: url("./img/city.jpg");
+}
+
+header {
+    color:white;
+    background:#173e43;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding-left:32px;
+    padding-right:32px;
+    opacity: 90%;
+}
+
+.hi {
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    box-shadow: -5px 5px white;
+    border-radius: 5px;
+}
+
+nav  {
+    display:flex;
+    align-items: center;
+    gap: 32px;
+    font-weight: bold;
+}
+
+.top {
+    opacity: 90%;
+    color:white;
+    background:#173e43;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+.left{
+    flex:2;
+    padding-left:8pc;
+    justify-content: flex-start;
+}
+
+.right{
+    display: flex;
+    flex:1;
+    padding:24px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1em;
+    color:white;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid white;
+    box-shadow: -1px 1px white;
+}
+
+.middle-box {
+    background: rgba(255, 255, 255, 0.6)
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    padding:2pc;
+}
+
+h3 {
+    padding-top:24px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 24px;
+    margin-top:0px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.funny {
+    width:150px;
+    border-radius:2px;
+    box-shadow: -2px 2px #173e43;
+}
+
+
+.quote {
+    background:rgb(23, 62, 67, .8);
+    display: flex;
+    flex-direction: column;
+    padding:4pc 4pc;
+}
+
+.words {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom:0px;
+    color:white;
+}
+
+.author {
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    color:white;
+}
+
+.bottom {
+    padding:16px;
+    margin-left:18pc;
+    margin-right: 18pc;
+    margin-top:4pc;
+    margin-bottom:4pc;
+}
+
+.sign-up {
+    background: rgb(100, 149, 237, .8);
+    display: flex;
+    padding:20px;
+    gap:20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding:32px;
+    background: rgb(23, 62, 67, .8);
+}
